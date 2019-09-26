@@ -8,7 +8,7 @@ const {
 const settings = require("./settings");
 
 main();
-setInterval(main, 1800 * 1000);
+setInterval(main, settings.updateFrequency);
 
 async function main() {
   console.log("///////////////////////////////////////////////////////////");
