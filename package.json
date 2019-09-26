@@ -1,0 +1,15 @@
+{
+  "name": "parser",
+  "version": "1.0.0",
+  "description": "Script for checking for availability of any product in any city at ttps://www.mvideo.ru",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "start:terminal": "/path/to/node/binary /full/path/to/index.js >> /full/path/to/log/file"
+  },
+  "author": "Vlad Bodryi",
+  "license": "ISC",
+  "dependencies": {
+    "puppeteer": "^1.20.0"
+  }
+}
